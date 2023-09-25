@@ -1,16 +1,45 @@
 .App {
   text-align: center;
+  
+}
+body{
+  background: #151726!important;
+  font-family: Nunito,sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* styles.css */
+.placeholder-white::placeholder {
+  color: white; /* Atur warna placeholder menjadi putih */
+}
+.form-container {
+  width: 300px;
+  margin: 0 auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.form-control {
+  background: transparent;
+  border: 1px solid #ff3751;
+  color: #fff;
+  border: 1px solid red;
+}
+
+.submit-button {
+  background-color:#ff3751;
+  color: #ffffff;
+  padding: 5px ;
+  border: none;
+  border-radius: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+/* Media queries untuk menyesuaikan tampilan pada layar yang lebih kecil */
+@media (max-width: 768px) {
+  /* Misalnya, sesuaikan lebar elemen input */
+  .form-control {
+    width: 100%;
   }
+
+  /* Sesuaikan gaya lainnya jika diperlukan */
 }
 
 .App-header {
@@ -21,7 +50,7 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {

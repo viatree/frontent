@@ -1,0 +1,42 @@
+/* custom.css */
+::placeholder {
+    color: white;
+  }
+  body{
+    background: #151726!important;
+    font-family: Nunito,sans-serif;
+  }
+  
+  /* styles.css */
+  .placeholder-white::placeholder {
+    color: white; /* Atur warna placeholder menjadi putih */
+  }
+  .form-container {
+    width: 300px;
+    margin: 0 auto;
+  }
+  
+  .form-control {
+    background: transparent;
+    border: 1px solid #ff3751;
+    color: #fff;
+    border: 1px solid red;
+  }
+  
+  .submit-button {
+    background-color:#ff3751;
+    color: #ffffff;
+    padding: 5px ;
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    cursor: pointer;
+  }
+  .card-body {
+    background: #151726!important;
+    font-family: Nunito,sans-serif;
+    color: #ffffff;
+  }
+  /* .card-text {
+    color: #ffffff;
+  } */
